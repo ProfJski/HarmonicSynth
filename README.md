@@ -45,3 +45,11 @@ Moving on to the upper right corner:
 **Reverb** determines how many such echos you will get.  So the minimum setting is one.  More than one introduces more echoes, by simply remixing as described above multiple times.
 
 **Vibrato** varies the frequency of the fundamental tone slowly over time in a sinusoidal fashion, i.e., a frequency modulation (FM).  **Vibrato rate** determines how fast a vibrato is made.  Current range is 0 to 5 Hz, but it can easily be changed in the code if that's too narrow a limit.  **Vibrato range** determines how much the fundamental frequency modulates.  I kept the upper limit modest to keep the effect sounding like an actual vibrato, but increasing the upper limit leads to interesting, theremin-like sounds.
+
+## Why did I make it?
+To explain how digital synthesis of musical sounds works to my son.  RayLib and RayGUI made it easy to build the interface.
+
+## Potential improvememnts:
+- Add an easy way to select musical notes rather than dial-by-Hz
+- Add more convenience settings using harmonic components from real instruments
+- It seems that really accurate instrument sounds would require a sequence of many different harmonic components over time, not just an initial attack and then sustain harmonics, which add only a little real-world feel to the sound. It would be nice to be able to load a stack of harmonic components and lerp through them as we go from the beginning of the wave to the end, similar to how the volume envelope is applied to amplitude.
