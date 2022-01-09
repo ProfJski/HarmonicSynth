@@ -14,7 +14,7 @@ Starting in the upper left of the GUI:
 
 **Wave Scale** Increase to display more of the wave on the screen at one time.  The display scrolls through the entire 1 second of the wave form at 1 sample per pixel of width at a scale of 1, 2 samples per pixel of width at a scale of 2, etc.  *Keyboad shortcut:* Left arrow decreases, right arrow increases.
 
-**HZ** Set the frequency of the fundamental tone here.  *Keyboard shortcut:"* Up arrow increases frequency, down arrow decreases.  Useful for getting the exact frequency that you want.
+**HZ** Set the frequency of the fundamental tone here.  *Keyboard shortcut:* Up arrow increases frequency, down arrow decreases.  Useful for getting the exact frequency that you want.
 
 **Main volume** Adjusts playback volume only.  Does not alter height of waveform, which is normalized.
 
